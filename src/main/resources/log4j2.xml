@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="debug">
+	<Appenders>
+		<Console name="CONSOLE" target="SYSTEM_OUT">
+			<PatternLayout
+				pattern="[%-5level] %d{yyyy-MM-dd HH:mm:ss.SSS} [%t] %c{1} - [%X{numPS} - %X{specialitePS}  - %X{codeCaisse}  - %X{codeRegime}  - %X{nirOD}  - %X{nirAD} - %X{codeCaisseAssure} - %X{codeRegimeAssure}] - %msg%n" />
+		</Console>
+	</Appenders>
+	<Loggers>
+		<Root level="info">
+			<AppenderRef ref="CONSOLE" />
+		</Root>
+
+		<Logger name="com.sopra" level="debug" />
+		<Logger name="org.hibernate.SQL" level="debug" />
+	</Loggers>
+</Configuration>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataset>
+	<film id="1" title="Viche" />
+	<film id="2" title="germee" />
+	<film id="3" title="papa" />
+	<film id="4" title="maman1" />
+	<regimes idReg="1" libReg="regime générale" />
+	<regimes idReg="2" libReg="MUTUALITE SOCIALE AGRICOLE" />
+	<regimes idReg="3" libReg="REGIME SOCIAL DES INDEPENDANTS (RSI)" />
+	<regimes idReg="4" libReg="Caisse de Prévoyance et de Retraite du Personnel d." />
+	<regimes idReg="5" libReg="CAISSE DE COORDINATION AUX ASSURANCES SOCIALES DE LA RATP" />
+	<mt idMt="1" nomMt="Nom_Mt_1" prenomMt="prenom_Mt_1" numTel="+33555896589" adresseMt="1 boulevard mendes france" />
+	<mt idMt="2" nomMt="Nom_Mt_2" prenomMt="prenom_Mt_2" numTel="+33555874586" adresseMt="2 boulevard mendes france" />
+	<mt idMt="3" nomMt="Nom_Mt_3" prenomMt="prenom_Mt_3" numTel="+33555896532" adresseMt="3 boulevard mendes france" />
+	<mt idMt="4" nomMt="Nom_Mt_4" prenomMt="prenom_Mt_4" numTel="+33555253696" adresseMt="4 boulevard mendes france" />
+	<mt idMt="5" nomMt="Nom_Mt_5" prenomMt="prenom_Mt_5" numTel="+33555213457" adresseMt="5 boulevard mendes france" />
+	<caisses idCaisse="1" libCaisse="caisse_num_1" idReg="1" />
+	<caisses idCaisse="2" libCaisse="caisse2" idReg="1" />
+	<caisses idCaisse="3" libCaisse="caisse3" idReg="1" />
+	<caisses idCaisse="4" libCaisse="caisse4" idReg="1" />
+	<caisses idCaisse="5" libCaisse="caisse5" idReg="5" />
+	<patient idPt="220222199208192" nomPt="Nom_Patient_1" prenomPt="prenom_Patient_1" nirOd="220222" dateNaiss="1992-08-19" rang="2" ddj="oui"
+		exoneration="non" acs="non" cmuc="oui" ame="oui" idCaisse="1" idMt="2" idReg="1" />
+	<patient idPt="641428198502011" nomPt="nom_Patient_2" prenomPt="prenom_Patient_2" nirOd="641428" dateNaiss="1975-12-12" rang="1" ddj="non"
+		exoneration="oui" acs="non" cmuc="non" ame="non" idCaisse="4" idMt="3" idReg="1" />
+	<patient idPt="235689201302022" nomPt="nom_Patient_3" prenomPt="prenom_Patient_3" nirOd="235689" dateNaiss="2013-02-02" rang="2" ddj="oui"
+		exoneration="oui" acs="oui" cmuc="oui" ame="non" idCaisse="2" idMt="4" idReg="2" />
+	<patient idPt="123654198502011" nomPt="nom_Patient_4" prenomPt="prenom_Patient_4" nirOd="123654" dateNaiss="1985-02-01" rang="1" ddj="non"
+		exoneration="non" acs="oui" cmuc="non" ame="oui" idCaisse="4" idMt="5" idReg="5" />
+	<patient idPt="206396199809213" nomPt="nom_Patient_5" prenomPt="prenom_Patient_5" nirOd="206396" dateNaiss="1998-09-21" rang="3" ddj="non"
+		exoneration="non" acs="oui" cmuc="non" ame="oui" idCaisse="2" idMt="5" idReg="5" />
+</dataset>
